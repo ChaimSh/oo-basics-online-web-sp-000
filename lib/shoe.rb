@@ -7,8 +7,8 @@ attr_reader :brand
    @brand = brand
   end
 
-  def cobble
-    shoe.condition = "new"
+  def cobble 
+  @brand, @condition = "new"
   puts "Your shoe is as good as new!"
   end
 end
