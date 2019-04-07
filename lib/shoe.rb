@@ -7,7 +7,7 @@ attr_reader :brand
    @brand = brand
   end
 
-  def cobble(brand)
+  def cobble
   puts "The #{@brand} shoe has been repaired"
   end
 end
