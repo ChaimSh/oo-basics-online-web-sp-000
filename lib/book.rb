@@ -8,7 +8,7 @@ class Book
     @title
   end
 
- def author=(author) 
+ def author=(author)
    @author = author
  end
 
@@ -35,6 +35,5 @@ end
 def turn_page
    puts "Flipping the page...wow, you read fast!"
  end
-  
-end
 
+end
